@@ -1,83 +1,102 @@
+:root{
+    /* Color*/
+    --white: rgba(245,245,245,1);
+    --green: rgba(0,255,127,1);
+    --purple: rgba(180,100,255);
+    --red: rgba(238,59,59,1);
+    --grey: rgba(156,156,156,1);
+    --black01: rgba(0,0,0,0.1);
+    --black02: rgba(0,0,0,0.2);
+    --black03: rgba(0,0,0,0.3);
+    --transparent: transparent:
+}
+
+
 .theme-light, .theme-dark { /* Black Color Scheme */
     
     /* Title Color*/
-    --header-primary: white;
+    --header-primary: var(--white);
     
     /* 2nd Title Color*/
-    --header-secondary: white;
+    --header-secondary: var(--white);
     
     /* 1st Chat Color*/
-    --text-normal: white;
+    --text-normal: var(--white);
     
     /* 2nd Chat Color*/
-    --text-muted: white;
+    --text-muted: var(--white);
     
     /* Color for Links */
-    --text-link: rgba(180,100,255);
+    --text-link: var(--purple);
     
     /* Default Font Color */
-    --channels-default: white;
+    --channels-default: var(--white);
     
     /* Icon Color */
-    --interactive-normal: white;
+    --interactive-normal: var(--white);
     
     /* Icon Color OnMouse*/
-    --interactive-hover: white;
+    --interactive-hover: var(--white);
     
     /* Color, where i am and unread*/
-    --interactive-active: rgba(0,255,0,0.99);
+    --interactive-active: var(--green);
     
     /*Color of muted Channels */
-    --interactive-muted: rgba(250,0,0,1);
+    --interactive-muted: var(--red);
     
     /* 1st BG Color (BG for Video/Screen, Chat-background, Setting-background)*/
-    --background-primary: rgba(0,0,0,0.1);
+    --background-primary: var(--black01);
     
     /* 2nd BG Color (Server Info, Activity, Bubbles, Settings-Row-Background, )*/
-    --background-secondary: rgba(0,0,0,0.2);
+    --background-secondary: var(--black02);
     
     /* User Info Color */
-    --background-secondary-alt: rgba(0,0,0,0.3);
+    --background-secondary-alt: var(--black03);
     
     /* Discord UI */
-    --background-tertiary: rgba(50,50,50,0.1);
+    --background-tertiary: var(--black01);
     
     /* Color of small things */
-    --background-accent: rgba(250,250,250,0.5);
+    --background-accent: var(--grey);
     
     /* Server Info Color */
-    --background-floating: rgba(100,100,100,1);
+    --background-floating: var(--grey);
     
     /* */
-    --background-mobile-primary: rgba(255,0,0,1);
+    --background-mobile-primary: var(--transparent);
     
     /* */
-    --background-mobile-secondary: rgba(255,255,0,1);
+    --background-mobile-secondary: var(--transparent);
     
     /* Overlay Coior */ 
-    --background-modifier-hover: rgba(0,0,0,0.3);
+    --background-modifier-hover: var(--black03);
     
     /* Overlay Color OnClick*/
-    --background-modifier-active: rgba(0,0,0,1);
+    --background-modifier-active: var(--black03);
     
     /* Overlay Color of selected Channel */
-    --background-modifier-selected: rgba(0,0,0,0.5);
+    --background-modifier-selected: var(--black03);
     
     /* Trennzeichen a Color */
-    --background-modifier-accent: rgba(0,0,0,1);  
+    --background-modifier-accent: var(--black01);  
     
     /* BG Color of Text MSG*/
-    --background-message-hover: rgba(0,0,0,.51);
+    --background-message-hover: var(--black03);
     
     /* Color of Activated Modules, smth to click*/
-    --bd-blue: rgba(0,255,0,1);
+    --bd-blue: var(--green);
     
     /* */
-    --bd-blue-hover: transparent !important;
+    --bd-blue-hover: var(--transparent) !important;
     
     /* */
-    --bd-blue-active: transparent !important;
+    --bd-blue-active: var(--transparent) !important;
     
     /* */
-    --blurple: rgba(255,255,0,1);
+    --blurple:var(--green);
 }
+
+
+
+
+
