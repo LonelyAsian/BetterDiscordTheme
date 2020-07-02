@@ -1,10 +1,9 @@
-//META{"name":"MilkyGlass", "description":"MilkyGlass is a custom theme which I try to remind of using iOs", "author":"kjgdhrhrrgg"}*//{}
+//META{"name":"MilkyGlass", "description":"MilkyGlass is a custom theme which I try to remind of using iOs", "author":"kjgdhrhrrgg","version":"0.1b"}*//{}
 
 @import url("https://raw.githubusercontent.com/LonelyAsian/BetterDiscordTheme/master/base.css?token=AKS3WTDVVMJQYPVWCE2WA2K7AYODI");
 
 :root{
-    /* Color*/
-    --white: rgba(245,245,245,1);
+a    --white: rgba(245,245,245,1);
     --green: rgba(0,255,127,1);
     --purple: rgba(180,100,255);
     --red: rgba(238,59,59,1);
