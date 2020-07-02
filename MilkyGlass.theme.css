@@ -1,6 +1,6 @@
 //META{"name":"MilkyGlass", "description":"MilkyGlass is a custom theme which I try to remind of using iOs", "author":"kjgdhrhrrgg","version":"0.1b"}*//{}
 
-@import url("https://raw.githubusercontent.com/LonelyAsian/BetterDiscordTheme/master/base.css?token=AKS3WTDVVMJQYPVWCE2WA2K7AYODI");
+@import url("https://raw.githubusercontent.com/LonelyAsian/BetterDiscordTheme/master/base.css");
 
 :root{
 a    --white: rgba(245,245,245,1);
