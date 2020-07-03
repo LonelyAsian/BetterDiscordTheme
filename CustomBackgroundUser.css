@@ -22,7 +22,19 @@
 
 [user_by_bdfdb*="631802023720779786"],
 [data-user-id*="631802023720779786"] {
-    	 --user-background: url(" https://media1.tenor.com/images/38ac528295b255d0a92ae883b86e8750/tenor.gif?itemid=9186238"); 
+    	 --user-background: url("https://media1.tenor.com/images/38ac528295b255d0a92ae883b86e8750/tenor.gif?itemid=9186238"); 
 
+/* Keksi */ 
+
+[user_by_bdfdb*="298463801840369666"],
+[data-user-id*="298463801840369666"] {
+    	 --user-background: url("https://secureservercdn.net/72.167.241.134/jz3.de7.myftpupload.com/wp-content/uploads/2019/09/ezgif-4-a5ea5879dc57.gif?time=1593795042"); 
+	
+
+/* Rafael */ 
+
+[user_by_bdfdb*="221919888971661313"],
+[data-user-id*="221919888971661313"] {
+    	 --user-background: url("https://media.discordapp.net/attachments/459487191090069514/562176065078951991/9f3f59c.gif"); 
 
 
