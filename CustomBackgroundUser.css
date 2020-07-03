@@ -2,15 +2,25 @@
 	--user-popout-position: center;
 }
 
+[user_by_bdfdb*="254362351170617345"],
+[data-user-id*="254362351170617345"],
+[user_by_bdfdb*="365643222522920960"],
+[data-user-id*="365643222522920960"] {
+	--user-background: url('https://i.imgur.com/pqdICWJ.gif');
+}
+
+
 /* Saskia  */
 
 [user_by_bdfdb*="232503920063283200"],
 [data-user-id*="232503920063283200"] {
-    --user-background: url("https://media1.tenor.com/images/f397612ffb6a0e75f5973c1bbd320e77/tenor.gif");
+    	/* --user-background: url("https://media1.tenor.com/images/f397612ffb6a0e75f5973c1bbd320e77/tenor.gif"); */
+	--user-background: url('https://i.imgur.com/pqdICWJ.gif');
 }
 
 /* me */
 [user_by_bdfdb*="214338578111660034"],
 [data-user-id*="214338578111660034"] {
-    --user-background: url("https://66.media.tumblr.com/5227d45d649ff54da612b75f19dd8106/tumblr_nnwtgm6QOm1uuopeao1_500.gif");
+    	/* --user-background: url("https://66.media.tumblr.com/5227d45d649ff54da612b75f19dd8106/tumblr_nnwtgm6QOm1uuopeao1_500.gif"); */
+	--user-background: url('https://i.imgur.com/pqdICWJ.gif');
 }
