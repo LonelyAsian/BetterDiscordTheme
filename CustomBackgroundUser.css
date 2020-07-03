@@ -2,12 +2,10 @@
 	--user-popout-position: center;
 }
 
-
 /* me */
 [user_by_bdfdb*="214338578111660034"],
 [data-user-id*="214338578111660034"] {
-    	/* --user-background: url("https://66.media.tumblr.com/5227d45d649ff54da612b75f19dd8106/tumblr_nnwtgm6QOm1uuopeao1_500.gif"); */
-	--user-background: url('https://i.imgur.com/pqdICWJ.gif');
+    	--user-background: url("https://66.media.tumblr.com/5227d45d649ff54da612b75f19dd8106/tumblr_nnwtgm6QOm1uuopeao1_500.gif");
 }
 
 /* Saskia  */
@@ -36,7 +34,6 @@
 
 [user_by_bdfdb*="221919888971661313"],
 [data-user-id*="221919888971661313"] {
-    	 /* --user-background: url("https://media.discordapp.net/attachments/459487191090069514/562176065078951991/9f3f59c.gif"); */
-	--user-background: url('https://i.imgur.com/pqdICWJ.gif');
+    	--user-background: url("https://media.discordapp.net/attachments/459487191090069514/562176065078951991/9f3f59c.gif");
 }
 
