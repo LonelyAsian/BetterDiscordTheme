@@ -1,0 +1,16 @@
+/* Serverlist Slide Animation*/
+
+
+.guilds-1SWlCJ{
+    left: -20px;
+    transition: .2s ease-in-out;
+    opacity: 0;
+    filter: blur(20px);
+}
+
+.guilds-1SWlCJ:hover {
+
+    left: 0px;
+    opacity: 1;
+    filter: blur(0px);
+}

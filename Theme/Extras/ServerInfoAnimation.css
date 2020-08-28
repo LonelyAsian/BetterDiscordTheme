@@ -1,0 +1,11 @@
+/* Animation for Server Info Window*/
+
+.full-motion .scale-3iLZhb.didRender-33z1u8{
+    -webkit-transition:opacity 12s ease-out,-webkit-transform 12s ease-out;
+    transition:opacity 12s ease-out,-webkit-transform 12s ease-out;
+    transition:transform 12s ease-out,opacity 12s ease-out;
+    transition:transform 12s ease-out,opacity 12s ease-out,-webkit-transform 12s ease-out;
+    -webkit-transform:scale(1);
+    transform:scale(1);
+    opacity:1
+}

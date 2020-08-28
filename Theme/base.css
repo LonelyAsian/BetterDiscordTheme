@@ -1,0 +1,334 @@
+:root{
+    /* Color*/
+    
+    --white: rgba(245,245,245,1);
+    --green: rgba(0,255,127,1);
+    --purple: rgba(180,100,255);
+    --red: rgba(238,59,59,1);
+    --grey: rgba(156,156,156,1);
+    --black01: rgba(0,0,0,0.1);
+    --black02: rgba(0,0,0,0.2);
+    --black03: rgba(0,0,0,0.3);
+    --black09: rgba(0,0,0,0.9)
+    --transparent: transparent;
+
+    /* */
+    --title: "MilkyGlass";
+    --time: 5s;
+}
+
+.theme-light, .theme-dark { /* Black Color Scheme */
+    
+    /* Title Color*/
+    --header-primary: var(--white);
+    
+    /* 2nd Title Color*/
+    --header-secondary: var(--white);
+    
+    /* 1st Chat Color*/
+    --text-normal: var(--white);
+    
+    /* 2nd Chat Color*/
+    --text-muted: var(--white);
+    
+    /* Color for Links */
+    --text-link: var(--purple);
+    
+    /* Default Font Color */
+    --channels-default: var(--white);
+    
+    /* Icon Color */
+    --interactive-normal: var(--white);
+    
+    /* Icon Color OnMouse*/
+    --interactive-hover: var(--white);
+    
+    /* Color, where i am and unread*/
+    --interactive-active: var(--white);
+    
+    /*Color of muted Channels */
+    --interactive-muted: var(--red);
+    
+    /* 1st BG Color (BG for Video/Screen, Chat-background, Setting-background)*/
+    --background-primary: var(--transparent);
+    
+    /* 2nd BG Color (Server Info, Activity, Bubbles, Settings-Row-Background, )*/
+    --background-secondary: var(--transparent);
+    
+    /* User Info Color */
+    --background-secondary-alt: var(--transparent);
+    
+    /* Discord UI */
+    --background-tertiary: var(--transparent);
+    
+    /* Color of small things */
+    --background-accent: var(--grey);
+    
+    /* Server Info Color */
+    --background-floating: var(--purple);
+    
+    /* */
+    --background-mobile-primary: var(--transparent);
+    
+    /* */
+    --background-mobile-secondary: var(--transparent);
+    
+    /* Overlay Coior */ 
+    --background-modifier-hover: var(--black03);
+    
+    /* Overlay Color OnClick*/
+    --background-modifier-active: var(--black03);
+    
+    /* Overlay Color of selected Channel */
+    --background-modifier-selected: var(--black03);
+    
+    /* Trennzeichen a Color */
+    --background-modifier-accent: var(--black01);  
+    
+    /* BG Color of Text MSG*/
+    --background-message-hover: var(--black03);
+    
+    /* Color of Activated Modules, smth to click*/
+    --bd-blue: var(--purple);
+    
+    /* */
+    --bd-blue-hover: var(--transparent) !important;
+    
+    /* */
+    --bd-blue-active: var(--transparent) !important;
+    
+    /* */
+    --blurple:var(--green);
+}
+
+
+
+/* BACKGROUND */
+
+
+/* UI Background 1*/
+.pageWrapper-1PgVDX, #app-mount .wrapper-21YSNc [role=group], .expandedFolderBackground-2sPsd-, .codeRedemptionRedirect-1wVR4b, .paymentPane-3bwJ6A, .paginator-166-09, .folderIconWrapper-226oVY, .message-2qRu38, .footer-1kmXd4, .header-39GIC8, .scroller-2XE8rp, .footer-3rDWdC, .footer-3mqk7D, .scroller-1IIF0A, .nowPlayingColumn-2sl4cE, .folder-21wGz3, .selected-aXhQR6 .layout-2DM8Md, .standardSidebarView-3F1I7i, .ui-tab-bar-separator, .contentRegionScroller-26nc1e, .layer-3QrUeG, .container-1r6BKw.themed-ANHk51, .scroller-1JbKMe, .app-2rEoOp, .scroller-2TZvBN, .wrapper-1Rf91z, .bg-h5JY_x, .container-PNkimc, .messages-3amgkR, .members-1998pB, .channelTextArea-rNsIhG, .panels-j1Uci_, .privateChannels-1nO12o {
+    background: var(--transparent);
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    border: none;
+}
+
+/* UI Background 2 */
+.categoryWrapper-UZ5YNj, .appMount-3lHmkl, .container-16j22k {
+    background: var(--transparent);
+
+}
+
+/* UI Background 3 */
+body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
+    background: center / cover no-repeat var(--transparent) !important;
+
+}
+
+/* Gaming Info  */
+.header-ykumBX, .messageGroupWrapper-o-Zw7G, .container-3Mxszk, .inset-3sAvek, .reaction-1hd86g, .autocompleteArrow-Zxoy9H, .autocompleteHeaderBackground-30T70q, .cardPrimary-1Hv-to, .container-1D34oG, .topSectionNormal-2-vo2m, .emptyCard-1RJw8n {
+    background: var(--transparent)!important;
+    
+}
+
+/* Chat Background */
+.chat-3bRxxu, .peopleList-3c4jOR, .container-1D34oG {
+    background: var(--transparent)!important;
+    filter: blur(10p);
+    
+}
+
+
+/* Friend List/Server Channels */
+.sidebar-2K8pFh {
+    background: var(--transparent)!important;
+    ;
+}
+
+.wrapper-2aW0bm {
+    background: var(--red);
+}
+
+
+
+ /*User pb Background */  
+.modal-yWgWj-, .messagesPopoutWrap-1MQ1bW, .lookFilled-1Gx00P.colorPrimary-3b3xI6, .after_inlineCode-1KfVgj, .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y, .wrapper-2aW0bm, .headerNormal-T_seeN, .uploadModal-2ifh8j {
+    background: var(--purple)!important;
+
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+
+
+/* Dont know it yet */ 
+.lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+    background: var(--red)!important;
+}
+
+/* Also dont know it yet*/
+.bar-3urHkF {
+    background: var(--red)!important;
+}
+
+.uploadModal-2ifh8j {
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+/* smth in the settings */
+.userSettingsAccount-2eMFVR .cardPrimaryEditable-3KtE4g, .mentioned-xhSam7 {
+    background: var(--red)!important;
+    margin: .5em;
+    border-radius: 0 .25em .25em 0 !important;
+}
+
+/* Background of some icons*/
+.wrapper-35wsBm, .wrapper-3D2qGf, .childWrapper-anI2G9, .container-3ayLPN, .descriptionBox-1EKQKL {
+    box-shadow: none;
+    background: var(--transparent)!important;
+    border-radius: .25em!important;
+    filter: blur(px);
+}
+
+.iconBackgroundTierNone-3MPhMJ, .iconBackgroundTierOne-2LhaMB, .iconBackgroundTierThree-3qw3JX, .iconBackgroundTierTwo-3bCmdc {
+    width: 20px;
+    height: 20px;
+    border-radius: .25em;
+}
+
+.platform-osx .layer-3QrUeG, .platform-win .layer-3QrUeG {
+    top: 10px;
+    padding-top: 10px;
+}
+
+.platform-osx .bg-h5JY_x, .platform-osx .standardSidebarView-3F1I7i, .platform-win .bg-h5JY_x, .platform-win .standardSidebarView-3F1I7i {
+    top: 0px;
+}
+
+.platform-osx .wrapper-1Rf91z {
+    margin-top: 0px;
+}
+
+/* Also dont know it uff*/
+.scroller-305q3I {
+    background-color: var(--purple);
+}
+
+.sidebarScrollable-1qPI87+.content-1rPSz4 {
+    max-width: 100%;
+}
+
+/* Here we go again */ 
+.typeWindows-1za-n7 {
+    background: var(--purple);
+    margin: 0;
+    z-index: 10;
+}
+
+.typeWindows-1za-n7:after {
+    text-align: -webkit-center;
+    padding: 0;
+    width: 100%;
+    content: var(--title);
+    margin: 0 auto;
+}
+
+/* Fade for Video/Screen icon*/
+.barFill-23-gu-, .tile-2gi3tr .background-ujHpbY:hover, .divider-3573oO, .topSectionStreaming-1Tpf5X .buttonInvertedPurple-WtBglX, div[data-ref-id="guildsnav"]>.wrapper-21YSNc, div[data-ref-id="guildsnav"]::-webkit-scrollbar-thumb, .bd-toasts .bd-toast::before, .checked-3_4uQ9, #bd-settings-sidebar .ui-tab-bar-item.selected:after, .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:after, .jumpToPresentBar-9P20AM, .newMessagesBar-mujexs, .item-2hkk8m, .iconBackgroundTierNone-3MPhMJ, .iconBackgroundTierOne-2LhaMB, .iconBackgroundTierThree-3qw3JX, .iconBackgroundTierTwo-3bCmdc, .progressBar-3u8FBM[style*="background-color: rgb(114, 137, 218);"], .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(114, 137, 218);"], .barInner-3NDaY_, .markup-2BOw-j pre:after, .defaultIndicator-3WqGFB, .blockquoteDivider-2hH8H6, .closeButton-1tv5uR, .lookInverted-2D7oAl.colorGreen-29iAKY, .modeUnread-1zpFdA .name-3_Dsmg:before, .actionButton-VzECiy, .wrapper-1ucjTd.modeSelected-1zApJ_:after, .selected-aXhQR6.container-2Pjhx-:after, .verified-1eC5dy, .partnered-3nJayh, .actionButton-uPB8Fs, .jumpToPresentBar-9P20AM, .newMessagesBar-mujexs, .circleIconButton-jET_ig:hover, .hasMore-3e72_v, .option-96V44q.selected-rZcOL-, .topPill-30KHOu>div:nth-child(5), .lookFilled-1Gx00P.colorBrand-3pXr91, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .themeDefault-24hCdX.valueChecked-m-4IJZ, .mentioned-xhSam7:before, .actionButton-2PeQbJ:hover, .actionButton-2PeQbJ, .footer-1fjuF6:after, .reaction-1hd86g.reactionMe-wv5HKu, .circleIconButton-jET_ig.selected-ugP_am, .tooltipGreen-WdeQwd, .tooltipBlack-PPG47z, .lookFilled-1Gx00P.colorGreen-29iAKY, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+    background: radial-gradient(circle, var(--purple), var(--purple))!important;
+    background-size: 1000% 500%!important;
+    -webkit-animation: K2KBG var(--time) ease infinite !important;
+    animation: K2KBG var(--time) ease infinite !important;
+}
+
+a.metadataName-14STf-, .users-i_3-kL, .embedTitle-3OXDkz, .itemBase-1Qj4z6:hover.invite-271nFU, .itemBase-1Qj4z6.invite-271nFU, .card-3Qj_Yx a, .filenameLinkWrapper-1-14c5, .guildName-3WI6ml, .fakeLink-26oLcc, .top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:hover, .activity-11LB_k>.headerText-1HLrL7, .bodyTitle-Y0qMQz, .tabBarItem-1b8RUP[style*="color: rgb(255, 255, 255);"], .topic-TCb_qw a, .addButton-1BORro:before, .operations-36ENbA>a, .embedFooterText-28V_Wb, .h5-18_1nd.title-3sZWYQ.header-2BTCnc:after, .title-1ECcJP:before, .activityProfile-2bJRaP .headerText-1HLrL7, .connectedAccounts-repVzS:before, .activityHeader-1PExlk, .userInfoSectionHeader-CBvMDh, .h2-2gWE-o, .h3-3PDeKG, .unreadPill-2HyYtt, .content-1o0f9g, .wrapper-CU3qI5, .header-2RyJ0Y, .ui-tab-bar-header, .name-IbjUBS, .typeWindows-1za-n7:after, .wrapper-3WhCwL, .membersGroup-v9BXpm, .sidebar-2K8pFh .privateChannels-1nO12o header>span, .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218);"]:not(:hover), .disableColor-MwOAZf, .isUnread-3Ef-o9 .content-1o0f9g, .member-3-YXUe.selected-aXhQR6 .activity-3mKQ-i, .akaBadge-1M-1Gw, .channel-2QD9_O.selected-aXhQR6 .activity-3mKQ-i {
+    /* "Title" Color */
+    background: radial-gradient(circle, var(--purple), var(--purple))!important;
+    background-size: 1000% 500%!important;
+    -webkit-animation: K2KBG var(--time) ease infinite !important;
+    animation: K2KBG var(--time) ease infinite !important;
+    font-weight: normal!important;
+    /* down icon*/
+    color: var(--purple)!important;
+    -webkit-background-clip: text!important;
+    background-clip: text!important;
+    /*  mention */
+    -webkit-text-fill-color: var(--transparent)!important;
+    text-shadow: none!important;
+}
+
+.guildsError-b7zR5H {
+    background: var(--red)!important;
+    border-radius: .25em!important;
+    width: 35px;
+    height: 35px;
+    color: var(--white);
+    text-shadow: 0 0 12px;
+    border: none;
+}
+
+.folderIconWrapper-226oVY {
+    border-radius: .75em!important;
+    margin: 1px;
+}
+
+
+.tabBarItem-1b8RUP {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/*  Dunno */
+.tabBarItem-1b8RUP[style*="color: rgba(255, 255, 255, 0.4);"] {
+    color: var(--red)!important;
+}
+
+.tabBarItem-1b8RUP[style*="color: rgb(247, 247, 247);"], .top-28JiJ- .item-PXvHYJ {
+    border: none!important;
+}
+
+.activity-1ythUs, .tabBarContainer-1s1u-z, .headerInfo-30uryT {
+    display: block;
+    text-align: -webkit-center;
+}
+
+.profileBadges-2vWUYb {
+    margin: 0;
+    display: inline-flex;
+}
+
+.tabBar-2MuP6-, .tabBarItem-1b8RUP {
+    display: inline!important;
+}
+
+/* Icon Color*/
+.iconTierOne-BHC2T8, .iconTierTwo-_1edeM, .iconTierThree-3vLwdG, svg[style="color: rgb(247, 247, 247);"] {
+    color: var(--white)!important;
+}
+
+.svg-1X37T1, .pill-2uzAFe {
+    border-radius: .25em;
+}
+
+.listItem-2P_4kh.bd-guild.bd-selected>div.blobContainer-239gwq>div>svg {
+    border-radius: .5em;
+}
+
+/* Dunno*/
+.wrapper-3WhCwL {
+    padding: 2px;
+    transition: 150ms ease all;
+    background: var(--grey);
+}
+
+/* also dunno */
+.wrapper-3WhCwL:hover {
+    border-radius: .25em;
+    text-decoration: none;
+    color: var(--red)
+}
+
+
+

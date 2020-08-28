@@ -1,0 +1,57 @@
+:root{
+    --custombackground: rgba(30,140,100);
+    --blur: 0px; 
+    --opacitybg: 0.3; 
+    --opacityDiscord: 0.7;
+    --bgscale: 1; 
+    --bgrotation: 0deg; 
+    --bgrepeat: no-repeat; 
+
+    /** Container Backgrounds **/
+    --containerServer:  transparent;
+    --containerChannels:  transparent;
+    --containerChat:  transparent;
+    --containerMembers:  transparent;
+    --containerSettingsSidebar:  transparent;
+    --containerSettingsRightSide:  transparent;
+    --containerChatHeader:  transparent;
+    --containerFriendsList:  transparent;
+
+    /** Accents **/
+    --accentcolor: #7289da;
+    --accenttext: white;
+    --text-link: #7289da;
+
+    /* Status Colors */
+    --online: #43b581;
+	--idle: #faa61a;
+	--dnd: #f04747;
+	--offline: #636b75;
+	--invisible: #747f8d;
+	--streaming: #9146FF;
+
+    /** Fonts **/
+    --font: Whitney;
+
+    /** Scrollbar **/
+    --ScrollbarColor: white;
+    --ScrollbarWidth: 14px;
+    --ScrollbarBorderRadius: 10px;
+
+    /** Element Backgrounds(pop ups, menus, tabs, etc...) **/
+    /* Blur */
+    --bg-blur: blur(10px);
+    /* Background */
+    --bg-element: rgba(23,23,23,0.5);
+    --br: 7px ;
+
+    /** Covers **/
+    --showCovers: 1;
+
+    /** Emojis **/
+    /* In Chat */
+    --EmojiSize: 2rem;
+    /* Emoji Picker */
+    --EmojiMenuHeight: 300px;
+    --EmojiMenuWidth: 200px;
+}

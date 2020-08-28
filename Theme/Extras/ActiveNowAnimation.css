@@ -1,0 +1,18 @@
+/* Active Now Animation*/
+
+.nowPlayingColumn-2sl4cE{
+    min-width: 10px;
+    max-width: 10px;
+    background:rgba(255,0,0);
+    transition: .5s ease-in-out;
+    opacity: 0;
+    filter: blur(10px);
+}
+
+.nowPlayingColumn-2sl4cE:hover{
+    min-width:360px;
+    max-width:420px;
+    background:linear-gradient(rgba(255,0,0),rgba(0,255,0));
+    opacity: 1;
+    filter: blur(0px);
+}

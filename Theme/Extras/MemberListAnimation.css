@@ -1,0 +1,42 @@
+/* MemberList Animation */ 
+
+.membersWrap-2h-GB4{
+    min-width: 75px;
+}
+
+.members-1998pB{
+    width: 75px;
+    background: linear-gradient(#3d64e3, #6e17ef);
+    transition: width .6s ease-in-out;
+    animation-name: Test;
+    animation-duration: .25s;
+    animation-iteration-count: 1;
+    animation-direction: linear;
+}
+
+.members-1998pB:hover {
+    width: 240px;
+}
+
+@keyframes Test {
+    0% {
+        width: 0;
+        right: -60px;
+    }
+    25% {
+        width: 40px;
+        right: -32px;
+    }
+    50% {
+        width: 50px;
+        right: -20px;
+    }
+    75% {
+        width: 60px;
+        right: -12px;
+    }
+    100% {
+        width: 75px;
+        right: 0;
+    }
+}

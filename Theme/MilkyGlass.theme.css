@@ -1,0 +1,20 @@
+/**
+ *@name MilkyGlass
+ *@author kjgdhrhrrgg
+ *@version 0.1b
+ *@description MilkyGlass is a custom theme based on FrostedGlass
+*/
+
+@import url("https://raw.githubusercontent.com/LonelyAsian/BetterDiscordTheme/master/base.css");
+
+:root{
+    --white: rgba(245,245,245,1);
+    --green: rgba(0,255,127,1);
+    --purple: rgba(180,100,255);
+    --red: rgba(238,59,59,1);
+    --grey: rgba(156,156,156,1);
+    --black01: rgba(0,0,0,0.1);
+    --black02: rgba(0,0,0,0.2);
+    --black03: rgba(0,0,0,0.3);
+    --transparent: transparent:
+}
